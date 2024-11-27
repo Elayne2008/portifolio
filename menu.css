@@ -1,0 +1,26 @@
+    body{
+        margin: 0;
+        padding: 0;
+    }
+    a{
+        text-decoration: none;
+    }
+      nav{ 
+        display: inline-flex;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        background-color: rgb(4, 4, 120);
+    }
+    .menu{
+        align-content: space-between;
+        margin: 1px;
+        padding: 1px;
+        color: aqua;
+        border-bottom: 1px solid black;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .menu:hover{
+        margin-top: 15px;
+    }
+/*@media only screen and( max-width:700px)*/
